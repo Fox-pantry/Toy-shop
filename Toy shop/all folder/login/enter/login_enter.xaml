@@ -1,0 +1,22 @@
+﻿<Window x:Class="Toy_shop.all_folder.login.enter.login_enter"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Toy_shop.all_folder.login.enter"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterOwner"
+        Title="login_enter" Height="450" Width="800">
+    <Grid>
+        <TextBox HorizontalAlignment="Left" Margin="435,135,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox HorizontalAlignment="Left" Margin="435,180,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="логин" HorizontalAlignment="Left" Margin="318,131,0,0" VerticalAlignment="Top"/>
+        <Label Content="пароль" HorizontalAlignment="Left" Margin="318,176,0,0" VerticalAlignment="Top"/>
+        <Label Content="Авторизация" HorizontalAlignment="Center" Margin="0,57,0,0" VerticalAlignment="Top"/>
+        <Button Content="закрыть" HorizontalAlignment="Left" Margin="720,10,0,0" VerticalAlignment="Top" Height="35" Width="70"/>
+        <Button Content="свернуть" HorizontalAlignment="Left" Margin="645,10,0,0" VerticalAlignment="Top" Height="35" Width="70"/>
+        <Button Content="Войти" HorizontalAlignment="Left" Style="{DynamicResource butonSTY}" Margin="621,349,0,0" VerticalAlignment="Top" Click="Button_Click"/>
+        <Button Content="Регис" HorizontalAlignment="Left" Margin="171,349,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
